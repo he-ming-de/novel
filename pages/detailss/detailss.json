@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"van-rate": "../../lib/vant/rate/index"},
+  "navigationBarTitleText": "详情"
+}

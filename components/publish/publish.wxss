@@ -1,0 +1,22 @@
+/* components/publish/publish.wxss */
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item1 {
+  width: 33%;
+  border: 2rpx solid #ccc;
+  border-left: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx 0;
+  font-size: 32rpx;
+}
+.color {
+  color: rgba(0,0,0,.5);
+}
+.publish {
+  padding: 20rpx;
+}

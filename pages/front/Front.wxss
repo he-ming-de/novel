@@ -1,0 +1,48 @@
+/* pages/front/Front.wxss */
+.img {
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.item {
+  display: flex;
+  padding: 10rpx 40rpx;
+}
+
+.font {
+  font-size: 36rpx;
+}
+
+.fonts {
+  font-size: 32rpx;
+  color: #ccc;
+}
+
+.fontss {
+  font-size: 32rpx;
+  color: #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.item1 {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item2 {
+  display: flex;
+  padding: 20rpx 40rpx;
+  background: rgb(247,247,247);
+  justify-content: space-between;
+}
+.active {
+  color: red;
+  border-bottom: 2rpx solid red;
+}
+.colords {
+  font-size: 32rpx;
+}

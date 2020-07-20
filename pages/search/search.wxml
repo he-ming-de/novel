@@ -1,0 +1,52 @@
+<!--pages/search/search.wxml-->
+<view class="input">
+	<image src="../../images/tabbar/search.png" class="img"></image>
+	<input type="text" placeholder="输入书名或作者名" class="inputs" value="{{value}}" bindinput='input' bindconfirm='search'></input>
+	<view wx:if="{{flag===1}}">
+		<image src="../../images/tabbar/dels.png" class="imgse" bindtap="dsss"></image>
+	</view>
+</view>
+<view wx:if="{{value===''}}">
+	<view class="font">
+		<view>大家都在搜</view>
+		<view class="fonts" bindtap="change">
+			<image src="../../images/tabbar/refresh.active.png" class="imgs"></image>
+			<view>换一换</view>
+		</view>
+	</view>
+	<view>
+		<change newHotWords="{{newHotWords}}"></change>
+	</view>
+
+
+	<view class="item6">
+		<view>搜索历史</view>
+		<view class="imss" bindtap="dels">
+			<view>
+				<image src="../../images/tabbar/empty.png" class="ims"></image>
+			</view>
+			<view class="item7">清空</view>
+		</view>
+	</view>
+
+
+	<view class="ss">
+		<view wx:for="{{arr}}" wx:key="index" class="fonn">
+			<text class="fontes" bindtap="sf" data-item="{{item}}">{{item}}</text>
+		</view>
+	</view>
+
+</view>
+<view wx:else>
+	<view wx:for="{{books}}" wx:key="index" class="item" bindtap="detalist" data-item="{{item}}">
+		<view>
+			<image src="{{item.cover}}" class="im"></image>
+		</view>
+		<view class="item5">
+			<view>{{item.title}}</view>
+			<view class="item2">{{item.author}}</view>
+			<view class="item3">{{item.shortIntro}}</view>
+			<view class="item4">最近收藏:{{item.latelyFollower}}</view>
+		</view>
+	</view>
+</view>

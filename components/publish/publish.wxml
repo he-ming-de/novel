@@ -1,0 +1,8 @@
+<!--components/publish/publish.wxml-->
+<view class="publish">{{publish}}</view>
+<view class="item">
+	<view wx:for="{{press}}" wx:key="index" class="item1" bindtap="goto" data-index="{{index}}" data-item="{{item}}" data-sex="press">
+		<view>{{item.name}}</view>
+		<view class="color">{{item.bookCount}}本</view>
+	</view>
+</view>

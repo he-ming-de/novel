@@ -1,0 +1,78 @@
+/* pages/read/read.wxss */
+.item {
+  padding: 0 40rpx;
+}
+.font {
+  font-size: 36rpx;
+  font-weight: 700;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #ccc;
+}
+.fonts {
+  font-size: 32rpx;
+  padding: 20rpx 0;
+  text-indent: 40rpx;
+  text-align: left;
+  line-height: 100rpx;
+}
+.bnt {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 0rpx;
+  background: white;
+  padding: 20rpx 0;
+}
+.bnt1 {
+  background: rgb(236,48,76);
+  border-radius: 40rpx 0 0 40rpx;
+  color: #FFF;
+  padding: 0 50rpx;
+  font-size: 32rpx;
+}
+.bnt2 {
+  background: rgb(236,48,76);
+  border-radius:  0 40rpx 40rpx 0 ;
+  color: #FFF;
+  padding: 0 50rpx;
+  font-size: 32rpx;
+}
+.lefts {
+  margin-left: 10rpx;
+}
+.colors {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+  padding: 30rpx 0;
+  background: gray;
+}
+.mu {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background: #ccc;
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+}
+.colorss {
+  position: fixed;
+  width: 100%;
+  padding: 20rpx 0;
+  background: #ccc;
+  bottom: 120rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.colrs {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.item6{
+  margin-left: 100rpx;
+}

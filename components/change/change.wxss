@@ -1,0 +1,12 @@
+/* components/change/change.wxss */
+.colors {
+  padding: 20rpx;
+  font-size: 16px;
+}
+.clolr {
+  padding: 36rpx 20rpx;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}

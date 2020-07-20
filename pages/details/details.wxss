@@ -1,0 +1,67 @@
+/* pages/details/details.wxss */
+.item {
+  display: flex;
+  font-size: 32rpx;
+  padding: 20rpx 40rpx;
+}
+.font {
+  margin-right: 20rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+  font-size: 32rpx;
+}
+.item1 {
+  display: flex;
+  padding: 10rpx 40rpx;
+}
+.item2 {
+  display: flex;
+  
+}
+.item3 {
+  margin-right: 20rpx;
+}
+.items {
+  display: flex;
+  padding: 20rpx 40rpx;
+}
+.img {
+  width: 220rpx;
+  height: 300rpx;
+}
+.fonts {
+  font-size: 32rpx;
+  color: rgb(150, 147, 147);
+}
+.fontsc {
+  font-size: 32rpx;
+  color: rgb(150, 147, 147);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.fontss {
+  font-size: 36rpx;
+}
+.item6 {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.colors {
+  font-size: 32rpx;
+  background: red;
+  margin-right: 10rpx;
+  padding: 10rpx 10rpx;
+  color: #fff;
+  border-radius: 6rpx;
+}
+.colorcs {
+  display: flex;
+}
+.active {
+  color: #de1e06;
+}

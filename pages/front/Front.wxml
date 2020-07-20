@@ -1,0 +1,20 @@
+<!--pages/front/Front.wxml-->
+<view class="item2">
+	<view wx:for="{{arr}}" wx:key="index" bindtap="bindClick" data-index="{{index}}">
+		<view class="{{flag===index?'active':''}} colords">{{item.name}}</view>
+	</view>
+</view>
+
+
+<view wx:for="{{books}}" wx:key="index" class="item" bindtap="detailss" data-item="{{item}}">
+
+	<view class="img">
+		<image src="{{item.cover}}" class="img"></image>
+	</view>
+	<view class="item1">
+		<view class="font">{{item.title}}</view>
+		<view class="fonts">{{item.author}}</view>
+		<view class="fontss">{{item.shortIntro}}</view>
+	</view>
+
+</view>

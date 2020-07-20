@@ -1,0 +1,66 @@
+.imgs{
+  display: flex;
+  padding: 20rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.img {
+  width: 40rpx;
+  height: 40rpx;
+}
+.imgss {
+  width: 40rpx;
+  height: 40rpx;
+}
+.bang {
+  border-radius: 20rpx;
+  border: 2rpx solid #ccc;
+  padding: 10rpx 20rpx;
+  color: #ccc;
+  margin-right: 40rpx;
+  font-size: 16px;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.fonts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100rpx;
+  font-size: 16px;
+}
+.imgc {
+  width: 200rpx;
+  height: 280rpx;
+  position: relative;
+}
+.imgcs {
+  width: 200rpx;
+}
+.imgcss {
+  font-size: 32rpx;
+  width: 200rpx;
+}
+.fonc {
+  font-size: 32rpx;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40rpx;
+}
+.fontcs {
+  margin-top: 20rpx;
+  margin-right: 24rpx;
+}
+.fontq {
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.imgbut {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

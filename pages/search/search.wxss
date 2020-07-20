@@ -1,0 +1,114 @@
+/* pages/search/search.wxss */
+.input {
+  padding: 40rpx;
+}
+
+.inputs {
+  border: 2rpx solid #ccc;
+  text-align: center;
+  padding: 10rpx;
+  border-radius: 20rpx;
+  background: #efefef;
+  font-size: 16px;
+}
+.imgse {
+  width: 38rpx;
+  height: 38rpx;
+  position: absolute;
+  top: 58rpx;
+  z-index: 99;
+  right: 52rpx;
+}
+
+.img {
+  width: 38rpx;
+  height: 38rpx;
+  position: absolute;
+  top: 58rpx;
+  left: 210rpx;
+  z-index: 99;
+}
+
+.imgs {
+  width: 38rpx;
+  height: 38rpx;
+  color: #ff6347;
+  margin-right: 10rpx;
+}
+
+.font {
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40rpx;
+}
+
+.fonts {
+  display: flex;
+  align-items: center;
+  color: #ff6347;
+}
+
+.item {
+  display: flex;
+  font-size: 32rpx;
+  padding: 20rpx 40rpx;
+  height: 300rpx;
+}
+
+.item2 {
+  font-size: 24rpx;
+  color: #ccc;
+}
+.item5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20rpx;
+}
+.item3 {
+  font-size: 24rpx;
+  color: #ccc;
+  display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+}
+.item4 {
+  font-size: 24rpx;
+  color: #ff7f68;
+}
+.im {
+  width: 200rpx;
+  height: 300rpx;
+}
+.ims {
+  width: 40rpx;
+  height: 40rpx;
+}
+.imss {
+  display: flex;
+  color: #ff7f68;
+}
+.item6 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 40rpx;
+  align-items: center;
+  font-size: 32rpx;
+}
+.item7 {
+  margin-left: 10rpx;
+}
+.fontes {
+  padding: 10rpx 20rpx;
+  font-size: 32rpx;
+}
+.fonn {
+  padding: 10rpx 40rpx;
+}
+.ss {
+  display: flex;
+  flex-wrap: wrap;
+}

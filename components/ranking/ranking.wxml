@@ -1,0 +1,7 @@
+<!--components/ranking/ranking.wxml-->
+<view wx:for="{{males}}" wx:key="index" bindtap="front" data-item="{{item}}">
+	<view class="item">
+		<image src="{{item.cover}}" class="img"></image>
+    {{item.title}}
+	</view>
+</view>

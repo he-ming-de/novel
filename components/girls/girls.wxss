@@ -1,0 +1,13 @@
+/* components/girls/girls.wxss */
+.img {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}
+.item {
+  padding: 20rpx 40rpx;
+  border-bottom: 2rpx solid #ccc;
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+}

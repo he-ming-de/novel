@@ -1,0 +1,8 @@
+<!--components/girl/girl.wxml-->
+<view class="girl">{{girl}}</view>
+<view class="item">
+	<view wx:for="{{female}}" wx:key="index" class="item1" bindtap="goto" data-index="{{index}}" data-item="{{item}}" data-sex="female">
+		<view>{{item.name}}</view>
+		<view class="color">{{item.bookCount}}本</view>
+	</view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/details/details.wxml-->
+<view class="item">
+	<view wx:for="{{typeList}}" wx:key="index" bindtap="clickItem" data-index="{{index}}" data-id="{{id}}">
+		<view class="font {{indexs===index?'active':''}}">{{item.name}}</view>
+	</view>
+</view>
+
+<scroll-view scroll-x class="scroll-view_H">
+	<view class="item1">
+		<view wx:for="{{list[0].mins}}" wx:key="index" class="item2 {{indexItem===index?'active':''}}"   bindtap="click" data-index="{{index}}">
+			<view class="item3">
+				{{item}}
+			</view>
+		</view>
+	</view>
+</scroll-view>
+<view wx:for="{{books}}" wx:key="index" class="items" bindtap="bindclicks" data-item="{{item}}">
+	<view class="img">
+		<image src="{{item.cover}}" class="img"></image>
+	</view>
+	<view class="item6">
+		<view class="fontss">{{item.title}}</view>
+		<view class="fonts">{{item.author}}</view>
+		<view class="fontsc">{{item.shortIntro}}</view>
+		<view class="colorcs">
+		<view wx:for="{{item.tags}}" wx:key="index">
+			<view class="colors">{{item}}</view>
+		</view>
+		</view>
+	</view>
+</view>

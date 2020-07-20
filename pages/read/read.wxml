@@ -1,0 +1,31 @@
+<!--pages/read/read.wxml-->
+<view bindtap="bindclick" style="background: rgb{{index}};">
+	<view class="item">
+		<view class="font">{{obj.title}}</view>
+		<view class="fonts" style="font-size:{{font}}rpx">{{obj.body}}</view>
+		<view class="item7"></view>
+	</view>
+	<view wx:if="{{flags===0}}"></view>
+	<view wx:else>
+		<view wx:for="{{chapters}}" wx:key="index" class="mu">{{item.title}}</view>
+	</view>
+
+</view>
+<view wx:if="{{flag===0}}"></view>
+<view class="colors" wx:else>
+	<view bindtap="bindclicks" class="item6">目录</view>
+	<view bindtap="bindfont" class="item6">A+</view>
+	<view bindtap="bindfonts" class="item6">A-</view>
+	<view bindtap="bindcolor" class="item6">背景</view>
+	<view wx:if="{{fonts===0}}"></view>
+	<view wx:else class="colorss">
+		<view wx:for="{{color}}" wx:key="index">
+			<view class="colrs" bindtap="bindcolors" data-item="{{item}}" style="background:rgb{{item}}">
+			</view>
+		</view>
+	</view>
+</view>
+<view class="bnt">
+	<view><button class="bnt1">上一章</button></view>
+	<view class="lefts"><button class="bnt2">下一章</button></view>
+</view>

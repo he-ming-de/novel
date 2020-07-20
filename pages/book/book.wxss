@@ -1,0 +1,18 @@
+/* pages/book/book.wxss */
+.backcolor {
+  display: flex;
+  background: #f7f7f7;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20rpx 0;
+  font-size: 32rpx;
+}
+
+.fenlei {
+  border-bottom: 4rpx solid #ec304c;
+}
+
+.font {
+  padding: 20rpx 40rpx;
+  font-size: 32rpx;
+}

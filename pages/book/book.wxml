@@ -1,0 +1,18 @@
+<!--pages/book/book.wxml-->
+<view>
+	<view class="backcolor">
+		<view class="{{flag===0?'fenlei':''}}" bindtap="cls">分类</view>
+		<view class="{{flag===1?'fenlei':''}}" bindtap="clc">排行</view>
+	</view>
+</view>
+<view wx:if="{{flag===0}}">
+	<books male="{{male}}" man='{{man}}'></books>
+	<girl female="{{female}}" girl="{{girl}}"></girl>
+	<publish press="{{press}}" publish="{{publish}}"></publish>
+</view>
+<view wx:if="{{flag===1}}">
+	<view class="font">男生</view>
+	<ranking males="{{males}}"></ranking>
+	<view class="font">女生</view>
+	<girls females="{{females}}"></girls>
+</view>

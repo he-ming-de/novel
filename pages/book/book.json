@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "books": "../../components/min/books",
+    "girl": "../../components/girl/girl",
+    "publish": "../../components/publish/publish",
+    "ranking": "../../components/ranking/ranking",
+    "girls": "../../components/girls/girls"
+  }
+}
